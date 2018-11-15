@@ -13,9 +13,9 @@ Edgeware is an specialization of a substrate chain. The following list details t
 #### edge_identity
 The identity module handles registration, attestation, and claims issuance for identities. Identity is paramount for a variety of voting protocols and is a core focus of Edgeware's approach to offering as many governance primitives as possible.
 
-- [edge_identity](https://github.com/hicommonwealth/edge_identity/tree/master/src)
+- [edge_identity](https://github.com/hicommonwealth/edge_identity)
 
 #### edge_delegation
 The delegation module handles delegation of voting weight, which can be denominated using any pricing rule. These pricing rules can be 1 identity 1 vote, 1 coin 1 vote, and even quadratic voting. The purpose of this module is to provide a decoupled interface for any existing and future module to take advantage of delegation in a voting mechanism.
 
-- [edge_delegation](https://github.com/hicommonwealth/edge_delegation/tree/master/src)
+- [edge_delegation](https://github.com/hicommonwealth/edge_delegation)
