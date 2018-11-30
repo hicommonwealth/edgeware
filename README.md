@@ -19,3 +19,8 @@ The identity module handles registration, attestation, and claims issuance for i
 The delegation module handles delegation of voting weight, which can be denominated using any pricing rule. These pricing rules can be 1 identity 1 vote, 1 coin 1 vote, and even quadratic voting. The purpose of this module is to provide a decoupled interface for any existing and future module to take advantage of delegation in a voting mechanism.
 
 - [edge_delegation](https://github.com/hicommonwealth/edge_delegation)
+
+#### edge_bridge
+The bridge module maintains a federated, two-way bridge against eligible blockchains that also implement a federation smart contract system on their respective chain. Simply put, this module allows stakeholders to process incoming deposits and withdraws against any eligible blockchain using a supermajority voting rule to signal success or failure. The purpose of this module is to provide a two-way peg to any blockchain that can implement a multi-sig, federated bridge so that Edgeware tokens can move throughout the entire ecosystem.
+
+- [edge_bridge](https://github.com/hicommonwealth/edge_bridge)
