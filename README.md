@@ -25,3 +25,5 @@ The delegation module handles delegation of voting weight, which can be denomina
 #### edge_governance
 
 The governance module contains the logic that powers Edgeware's governance UI. It is presented as a broader governance module that forms something akin to a forum for governance proposals. Users can submit proposals, vote on proposals, and track progress of proposals through Edgeware's governance process.
+
+- [edge_governance](https://github.com/hicommonwealth/edge_governance)
