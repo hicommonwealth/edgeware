@@ -7,7 +7,9 @@ Edgeware is a new, actively governed blockchain. Edgeware fits into the ecosyste
 
 Together with these tenets, Edgeware stands to improve the approach to blockchain governance by numerous orders of magnitude. We can efficiently experiment with new ideas, publish results, and inform the general ecosystem about improvements or degradations in thought processes.
 
-The edgeware client: [edgeware-node](https://github.com/hicommonwealth/edgeware-node)
+## Client
+The edgeware client can be found in the link below. It contains the all work representative of Edgeware, including the modules described in the bottom section.
+- [edgeware-node](https://github.com/hicommonwealth/edgeware-node)
 
 ## Modules
 Edgeware is an specialization of a substrate chain. The following list details the modules of Edgeware as they relate to substrate's runtime module library.
